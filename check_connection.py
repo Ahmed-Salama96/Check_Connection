@@ -23,7 +23,6 @@ def internet_on():
 				time.sleep(1)
 				x -= 1
 			try_time = try_time * 2
-			#return False
 
 if __name__ == "__main__":
 	internet_on()
